@@ -1,7 +1,7 @@
 package com.yummynoodlebar.core.events;
 
 public class ReadEvent {
-  protected boolean entityFound = true;
+  protected boolean entityFound = false;
 
   public boolean isEntityFound() {
     return entityFound;
