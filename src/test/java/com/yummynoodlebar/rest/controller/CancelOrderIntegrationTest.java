@@ -72,7 +72,7 @@ public class CancelOrderIntegrationTest {
             delete("/aggregators/orders/{id}", key.toString())
                     .accept(MediaType.APPLICATION_JSON))
             .andDo(print())
-            .andExpect(status().isFound());
+            .andExpect(status().isNotFound());
 
   }
 
