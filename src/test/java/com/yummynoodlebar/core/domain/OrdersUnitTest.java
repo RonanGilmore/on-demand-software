@@ -30,7 +30,7 @@ public class OrdersUnitTest {
 
     uut.save(OrdersFixtures.standardOrder());
 
-    assertEquals(100, uut.findAll().size());
+    assertEquals(1, uut.findAll().size());
   }
 
   @Test
